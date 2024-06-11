@@ -12,4 +12,7 @@ namespace MCE
 
 		void Run();
 	};
+
+	// To be defined on client
+	Application* CreateApplication();
 }

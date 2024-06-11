@@ -13,9 +13,7 @@ public:
 	}
 };
 
-int main()
+MCE::Application* MCE::CreateApplication()
 {
-	Examples* examples = new Examples();
-	examples->Run();
-	delete(examples);
+	return new Examples();
 }
